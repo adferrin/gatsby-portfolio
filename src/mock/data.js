@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'DevCenter.png',
     title: 'Dev Center',
-    info: '',
+    info: 'This is a group project',
     info2: '',
     url: 'https://devcenter-629.herokuapp.com/',
     repo: 'https://github.com/adferrin/DevCenter', // if no repo, the button will not show up
