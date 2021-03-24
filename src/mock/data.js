@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Austin Ferrin', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, I am',
+  name: 'Austin Ferrin',
+  subtitle: 'Former Chef turned Software Dev',
+  cta: 'Know More',
 };
 
 // ABOUT DATA
@@ -21,19 +21,19 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/e/2PACX-1vQO4QwUsAfT3HHwqqBtRxxbKUxfq4d8_sy7YGSuIPCATquvLjFVarfSeScVDJ69dKz1J2xP1sxWv0Af/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'NightOwl.jpg',
+    title: 'Night Owl',
+    info: 'This is a group project',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://seir629-nightowl.herokuapp.com/',
+    repo: 'https://github.com/adferrin/videorange', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -57,38 +57,38 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to talk?',
+  btn: 'Contact me!',
+  email: 'Adferrin@icloud.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+  //  {
+  //    id: nanoid(),
+  //    name: 'twitter',
+  //    url: '',
+  //  },
+  //  {
+  //    id: nanoid(),
+  //    name: 'codepen',
+  //    url: '',
+  //  },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/austin-ferrin-1798641b2/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/adferrin',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
