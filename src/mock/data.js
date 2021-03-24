@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'DevCenter.png',
+    title: 'Dev Center',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://devcenter-629.herokuapp.com/',
+    repo: 'https://github.com/adferrin/DevCenter', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
