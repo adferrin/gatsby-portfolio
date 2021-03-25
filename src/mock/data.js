@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Racette.png',
     title: 'Racette',
-    info: 'Racette is a recipe app that creates and stores your favorite foods. This app includes Mongoose, Espress, Materialize, and Google OAuth for sercurity.',
+    info: 'Racette is a recipe app that creates and stores your favorite foods. This app includes Mongoose, Espress, Node.js, Materialize, and Google OAuth for sercurity.',
     info2: '',
     url: 'https://recipe-app-adf.herokuapp.com/',
     repo: 'https://github.com/adferrin/recipe-app', // if no repo, the button will not show up
