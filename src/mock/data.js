@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, I am',
+  title: 'Hello there, I\'m',
   name: 'Austin Ferrin',
   subtitle: 'Former Chef turned Software Dev',
   cta: 'Know More',
@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I was a Chef for 13 years starting from as a dishwasher working all the way up to head Chef. Now I am taking on Software development from the ground up.',
-  paragraphTwo: "I graduated from the software immersive program at General Assembly in 2020 for my foundational knowledge. I also have Free Code Camp\'s certifications for JavaScript Algorithms and Data Structures & Front End Libraries. Just I did in the kitchen, I will be solving complex problems with tried and true process coupled with technique.",
+  paragraphOne: 'I was a Chef for 13 years starting out as a dishwasher working my way up to head Chef. Now I am taking on Software development from the ground up.',
+  paragraphTwo: "I graduated from the software immersive program at General Assembly in 2020 for my foundational knowledge. I also have Free Code Camp\'s certifications for JavaScript Algorithms and Data Structures & Front End Libraries. Just I did in the kitchen, I solve complex problems with tried and true process coupled with technique.",
   paragraphThree: 'So far, my skills include JavaScript - Python - MongoDB - PostgreSQL - React - Gatsby - Django - Express - Node.js - RESTFUL Routing - MVC ',
   resume: 'https://docs.google.com/document/d/e/2PACX-1vQO4QwUsAfT3HHwqqBtRxxbKUxfq4d8_sy7YGSuIPCATquvLjFVarfSeScVDJ69dKz1J2xP1sxWv0Af/pub', // if no resume, the button will not show up
 };
@@ -57,7 +57,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would you like to talk?',
+  cta: 'Let\'s Chat',
   btn: 'Contact me!',
   email: 'Adferrin@icloud.com',
 };
