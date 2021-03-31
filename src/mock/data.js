@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'self.jpeg',
+  img: 'profile.jpg',
   paragraphOne: 'I was a Chef for 13 years starting out as a dishwasher working my way up to head Chef. Now I am taking on Software development from the ground up.',
   paragraphTwo: "I graduated from the software immersive program at General Assembly in 2020 for my foundational knowledge. I also have Free Code Camp\'s certifications for JavaScript Algorithms and Data Structures & Front End Libraries. Just I did in the kitchen, I solve complex problems with tried and true process coupled with technique.",
   paragraphThree: 'So far, my skills include JavaScript - Python - MongoDB - PostgreSQL - React - Gatsby - Django - Express - Node.js - RESTFUL Routing - MVC ',
